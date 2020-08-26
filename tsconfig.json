@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "yy-react-base": [
+        "src/components/index.ts"
+      ],
+      "yy-react-base/es/*": [
+        "src/components/*"
+      ],
+      "yy-react-base/lib/*": [
+        "src/components/*"
+      ],
+      "@util": [
+        "src/components/_util"
+      ]
+    },
+    "target": "esnext",
+    "module": "commonjs",
+    "jsx": "react",
+    "declaration": true,
+    "declarationDir": "lib",
+    "strict": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "importHelpers": true,
+    "noEmit": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true
+  },
+  "include": [
+    "src",
+    "tests/setupTests.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "types",
+    "lib",
+    "es"
+  ]
+}

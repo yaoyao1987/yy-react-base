@@ -1,0 +1,54 @@
+<Meta title="文档/开始使用" />
+
+
+# yy-react-base
+
+[![npm version](https://img.shields.io/david/dev/ant-design/ant-design?style=flat-square)]()
+
+`yy-react-base` 是模仿 `antd` 的组件库，主要用于研发企业级中后台
+
+## 特性
+
+- 🌈 提炼中后台的交互语言和视觉风格
+- 📦 开箱即用的 React 组件。
+- 🛡 使用 TypeScript 开发，提供完整的类型定义文件。
+
+
+## 安装
+
+```
+$ npm install yy-react-base
+```
+
+## 使用
+
+```tsx
+import { Button } from 'yy-react-base'
+
+ReactDOM.render(
+  <Button>
+    点击
+  </Button>,
+  mountNode
+)
+```
+
+## 测试
+
+#### 所有用例
+
+```
+npm test
+```
+
+#### 指定目录
+
+```
+npm test components/avatar
+```
+
+#### 更新快照
+
+```
+npm test components/avatar --updateSnapshot
+```

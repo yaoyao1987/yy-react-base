@@ -1,0 +1,16 @@
+*.js
+src/components/**/demo
+src/components/**/__tests__
+typings
+es/**/*
+lib/**/*
+node_modules
+scripts
+build
+tests
+dist
+coverage
+**/*.d.ts
+# Scripts
+jest-stare
+template

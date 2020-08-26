@@ -1,0 +1,64 @@
+.doc-wrapper {
+  > * {
+    margin-right: 8px;
+    margin-bottom: 8px;
+  }
+
+  &-ghost {
+    background: rgb(190, 200, 200);
+    padding: 26px 16px 16px;
+  }
+
+  &-spin {
+    > * {
+      margin-left: 48px;
+    }
+  }
+}
+
+.doc-icon {
+  display: flex;
+  flex-wrap: wrap;
+
+  .icon-wrapper {
+    width: calc(100% / 9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0.25rem;
+    margin-bottom: 22px;
+
+    > * {
+      padding: 0.2rem;
+    }
+
+    &:hover {
+      background-color: #4dabf7;
+      box-shadow: 0 0.25rem 0.125rem 0 rgba(0, 0, 0, 0.15);
+      cursor: pointer;
+
+      .yy-icon {
+        color: #fff;
+      }
+
+      .doc-icon-text {
+        background-color: #fff;
+
+        &:hover {
+          color: #000;
+        }
+      }
+    }
+
+    .doc-icon-text {
+      width: 100%;
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #adb5bd;
+      font-size: 12px;
+      text-align: center;
+    }
+  }
+}
