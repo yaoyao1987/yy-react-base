@@ -1,11 +1,11 @@
-import { addDecorator, addParameters, configure } from '@storybook/react'
+import { addParameters, configure } from '@storybook/react'
 const { name, repository, version } = require('../package.json')
 
 //加载配置
 addParameters({
   options: {
     name: `${name} v${version}`,
-    title: 'sw-react-ui',
+    title: `${name}`,
     url: repository,
     showSearchBox: false,
     showPanel: false,

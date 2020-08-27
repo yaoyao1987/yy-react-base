@@ -37,7 +37,8 @@ type NativeButtonProps = BaseButtonProps &
 type AnchorButtonProps = BaseButtonProps & Omit<AnchorHTMLAttributes<HTMLElement>, 'type'>
 export type ButtonProps = Partial<NativeButtonProps & AnchorButtonProps>
 
-const prefixCls = getPrefixCls('btn')
+const prefixCls = getPrefixCls('btn');
+
 export const Button: FC<ButtonProps> = (props: ButtonProps) => {
   const {
     type = 'default',
