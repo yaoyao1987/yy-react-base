@@ -98,7 +98,7 @@ async function push(nextVersion: string) {
  */
 async function build() {
   timeLog('组件库打包', 'start')
-  await run('npm run build')
+  await run('yarn run build')
   timeLog('组件库打包', 'end')
 }
 
