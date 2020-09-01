@@ -1,0 +1,514 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test GanttChart component should render correct component 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="yy-gantt-container"
+      >
+        <div
+          class="gantt_layout_cell gantt_layout_root gantt_layout gantt_layout_y gantt_container gantt_layout_cell_border_left gantt_layout_cell_border_top gantt_layout_cell_border_right gantt_layout_cell_border_bottom"
+          data-cell-id="main"
+          style="width: 0px; height: 0px; padding: 0px;"
+        >
+          <div
+            class="gantt_layout_cell gantt_layout gantt_layout_x  gantt_layout_cell_border_transparent gantt_layout_cell_border_bottom"
+            data-cell-id="c1598707613464"
+            style="margin-bottom: 0px; width: -2px; height: 0px; padding: 0px;"
+          >
+            <div
+              class="gantt_layout_cell  grid_cell gantt_layout_outer_scroll gantt_layout_outer_scroll_vertical gantt_layout_outer_scroll gantt_layout_outer_scroll_horizontal gantt_layout_cell_border_right"
+              data-cell-id="1598707613465"
+              style="margin-right: 0px; width: 540px; height: -1px;"
+            >
+              <div
+                class="gantt_layout_content"
+                style="height: -1px;"
+              >
+                <div
+                  aria-multiselectable="false"
+                  class="gantt_grid"
+                  role="treegrid"
+                  style="height:inherit;width:inherit;"
+                >
+                  <div
+                    class="gantt_grid_scale"
+                    role="row"
+                    style="width: inherit; height: 35px; line-height: 34px;"
+                  >
+                    <div
+                      aria-label="新任務"
+                      class="gantt_grid_head_cell gantt_grid_head_add  "
+                      column_id="add"
+                      data-column-id="add"
+                      role="button"
+                      style="width:40px;"
+                    />
+                    <div
+                      aria-label="负责人"
+                      class="gantt_grid_head_cell gantt_grid_head_assigner  "
+                      column_id="assigner"
+                      data-column-id="assigner"
+                      role="columnheader"
+                      style="width:81px;"
+                    >
+                      负责人
+                    </div>
+                    <div
+                      aria-label="任务"
+                      class="gantt_grid_head_cell gantt_grid_head_text  "
+                      column_id="text"
+                      data-column-id="text"
+                      role="columnheader"
+                      style="width:70px;"
+                    >
+                      任务
+                    </div>
+                    <div
+                      aria-label="计划开始日"
+                      class="gantt_grid_head_cell gantt_grid_head_start_date  "
+                      column_id="start_date"
+                      data-column-id="start_date"
+                      role="columnheader"
+                      style="width:80px;"
+                    >
+                      计划开始日
+                    </div>
+                    <div
+                      aria-label="计划结束日"
+                      class="gantt_grid_head_cell gantt_grid_head_end_date  "
+                      column_id="end_date"
+                      data-column-id="end_date"
+                      role="columnheader"
+                      style="width:80px;"
+                    >
+                      计划结束日
+                    </div>
+                    <div
+                      aria-label="实际开始日"
+                      class="gantt_grid_head_cell gantt_grid_head_actual_start_date  "
+                      column_id="actual_start_date"
+                      data-column-id="actual_start_date"
+                      role="columnheader"
+                      style="width:80px;"
+                    >
+                      实际开始日
+                    </div>
+                    <div
+                      aria-label="实际结束日"
+                      class="gantt_grid_head_cell gantt_grid_head_actual_end_date  "
+                      column_id="actual_end_date"
+                      data-column-id="actual_end_date"
+                      role="columnheader"
+                      style="width:80px;"
+                    >
+                      实际结束日
+                    </div>
+                    <div
+                      aria-label="进度"
+                      class="gantt_grid_head_cell gantt_grid_head_progress gantt_last_cell "
+                      column_id="progress"
+                      data-column-id="progress"
+                      role="columnheader"
+                      style="width:49px;"
+                    >
+                      进度
+                    </div>
+                  </div>
+                  <div
+                    class="gantt_grid_data"
+                    data-layer="true"
+                    role="rowgroup"
+                    style="width: inherit; height: 0px;"
+                  >
+                    <div
+                      style="visibility: hidden; height: 212px; width: 1px;"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="gantt_layout_cell  timeline_cell gantt_layout_outer_scroll gantt_layout_outer_scroll_vertical gantt_layout_outer_scroll gantt_layout_outer_scroll_horizontal"
+              data-cell-id="1598707613466"
+              style="margin-right: 0px; width: 0px; height: -1px;"
+            >
+              <div
+                class="gantt_layout_content"
+                style="height: -1px;"
+              >
+                <div
+                  class="gantt_task"
+                  style="width:inherit;height:inherit;"
+                >
+                  <div
+                    class="gantt_task_scale"
+                    style="height: 35px; width: 840px;"
+                  >
+                    <div
+                      class="gantt_scale_line"
+                      style="height:34px;position:relative;line-height:34px"
+                    >
+                      <div
+                        aria-label="21 8月"
+                        class="gantt_scale_cell"
+                        style="width:70px;height:34px;position:absolute;left:0px"
+                      >
+                        21 8月
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="gantt_data_area"
+                    style="height: -36px; width: 840px;"
+                  >
+                    <div
+                      class="gantt_task_bg"
+                      data-layer="true"
+                      style="height: 210px; width: 840px;"
+                    />
+                    <div
+                      class="gantt_links_area"
+                      data-layer="true"
+                      style="width: 840px;"
+                    />
+                    <div
+                      class="gantt_bars_area"
+                      data-layer="true"
+                      style="width: 840px;"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="gantt_layout_cell  ganttScrollVer_cell"
+              data-cell-id="1598707613467"
+              style="width: 1px; height: -1px;"
+            >
+              <div
+                class="gantt_layout_content gantt_task_vscroll"
+                style="height: -1px;"
+              >
+                <div
+                  class="gantt_layout_cell gantt_ver_scroll gantt_layout_cell_border_top"
+                  style="width: 1px; height: -33px; top: 34px;"
+                >
+                  <div
+                    style="height: 212px;"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="gantt_layout_cell  scrollHor_cell"
+            data-cell-id="1598707613468"
+            style="width: -2px; height: 1px;"
+          >
+            <div
+              class="gantt_layout_content"
+              style="height: 1px;"
+            >
+              <div
+                class="gantt_layout_cell gantt_hor_scroll"
+                style="width: -2px; height: 1px;"
+              >
+                <div
+                  style="width: 840px;"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <iframe
+          aria-hidden="true"
+          class="gantt_container_resize_watcher"
+          role="none"
+          tabindex="-1"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="yy-gantt-container"
+    >
+      <div
+        class="gantt_layout_cell gantt_layout_root gantt_layout gantt_layout_y gantt_container gantt_layout_cell_border_left gantt_layout_cell_border_top gantt_layout_cell_border_right gantt_layout_cell_border_bottom"
+        data-cell-id="main"
+        style="width: 0px; height: 0px; padding: 0px;"
+      >
+        <div
+          class="gantt_layout_cell gantt_layout gantt_layout_x  gantt_layout_cell_border_transparent gantt_layout_cell_border_bottom"
+          data-cell-id="c1598707613464"
+          style="margin-bottom: 0px; width: -2px; height: 0px; padding: 0px;"
+        >
+          <div
+            class="gantt_layout_cell  grid_cell gantt_layout_outer_scroll gantt_layout_outer_scroll_vertical gantt_layout_outer_scroll gantt_layout_outer_scroll_horizontal gantt_layout_cell_border_right"
+            data-cell-id="1598707613465"
+            style="margin-right: 0px; width: 540px; height: -1px;"
+          >
+            <div
+              class="gantt_layout_content"
+              style="height: -1px;"
+            >
+              <div
+                aria-multiselectable="false"
+                class="gantt_grid"
+                role="treegrid"
+                style="height:inherit;width:inherit;"
+              >
+                <div
+                  class="gantt_grid_scale"
+                  role="row"
+                  style="width: inherit; height: 35px; line-height: 34px;"
+                >
+                  <div
+                    aria-label="新任務"
+                    class="gantt_grid_head_cell gantt_grid_head_add  "
+                    column_id="add"
+                    data-column-id="add"
+                    role="button"
+                    style="width:40px;"
+                  />
+                  <div
+                    aria-label="负责人"
+                    class="gantt_grid_head_cell gantt_grid_head_assigner  "
+                    column_id="assigner"
+                    data-column-id="assigner"
+                    role="columnheader"
+                    style="width:81px;"
+                  >
+                    负责人
+                  </div>
+                  <div
+                    aria-label="任务"
+                    class="gantt_grid_head_cell gantt_grid_head_text  "
+                    column_id="text"
+                    data-column-id="text"
+                    role="columnheader"
+                    style="width:70px;"
+                  >
+                    任务
+                  </div>
+                  <div
+                    aria-label="计划开始日"
+                    class="gantt_grid_head_cell gantt_grid_head_start_date  "
+                    column_id="start_date"
+                    data-column-id="start_date"
+                    role="columnheader"
+                    style="width:80px;"
+                  >
+                    计划开始日
+                  </div>
+                  <div
+                    aria-label="计划结束日"
+                    class="gantt_grid_head_cell gantt_grid_head_end_date  "
+                    column_id="end_date"
+                    data-column-id="end_date"
+                    role="columnheader"
+                    style="width:80px;"
+                  >
+                    计划结束日
+                  </div>
+                  <div
+                    aria-label="实际开始日"
+                    class="gantt_grid_head_cell gantt_grid_head_actual_start_date  "
+                    column_id="actual_start_date"
+                    data-column-id="actual_start_date"
+                    role="columnheader"
+                    style="width:80px;"
+                  >
+                    实际开始日
+                  </div>
+                  <div
+                    aria-label="实际结束日"
+                    class="gantt_grid_head_cell gantt_grid_head_actual_end_date  "
+                    column_id="actual_end_date"
+                    data-column-id="actual_end_date"
+                    role="columnheader"
+                    style="width:80px;"
+                  >
+                    实际结束日
+                  </div>
+                  <div
+                    aria-label="进度"
+                    class="gantt_grid_head_cell gantt_grid_head_progress gantt_last_cell "
+                    column_id="progress"
+                    data-column-id="progress"
+                    role="columnheader"
+                    style="width:49px;"
+                  >
+                    进度
+                  </div>
+                </div>
+                <div
+                  class="gantt_grid_data"
+                  data-layer="true"
+                  role="rowgroup"
+                  style="width: inherit; height: 0px;"
+                >
+                  <div
+                    style="visibility: hidden; height: 212px; width: 1px;"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="gantt_layout_cell  timeline_cell gantt_layout_outer_scroll gantt_layout_outer_scroll_vertical gantt_layout_outer_scroll gantt_layout_outer_scroll_horizontal"
+            data-cell-id="1598707613466"
+            style="margin-right: 0px; width: 0px; height: -1px;"
+          >
+            <div
+              class="gantt_layout_content"
+              style="height: -1px;"
+            >
+              <div
+                class="gantt_task"
+                style="width:inherit;height:inherit;"
+              >
+                <div
+                  class="gantt_task_scale"
+                  style="height: 35px; width: 840px;"
+                >
+                  <div
+                    class="gantt_scale_line"
+                    style="height:34px;position:relative;line-height:34px"
+                  >
+                    <div
+                      aria-label="21 8月"
+                      class="gantt_scale_cell"
+                      style="width:70px;height:34px;position:absolute;left:0px"
+                    >
+                      21 8月
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="gantt_data_area"
+                  style="height: -36px; width: 840px;"
+                >
+                  <div
+                    class="gantt_task_bg"
+                    data-layer="true"
+                    style="height: 210px; width: 840px;"
+                  />
+                  <div
+                    class="gantt_links_area"
+                    data-layer="true"
+                    style="width: 840px;"
+                  />
+                  <div
+                    class="gantt_bars_area"
+                    data-layer="true"
+                    style="width: 840px;"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="gantt_layout_cell  ganttScrollVer_cell"
+            data-cell-id="1598707613467"
+            style="width: 1px; height: -1px;"
+          >
+            <div
+              class="gantt_layout_content gantt_task_vscroll"
+              style="height: -1px;"
+            >
+              <div
+                class="gantt_layout_cell gantt_ver_scroll gantt_layout_cell_border_top"
+                style="width: 1px; height: -33px; top: 34px;"
+              >
+                <div
+                  style="height: 212px;"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="gantt_layout_cell  scrollHor_cell"
+          data-cell-id="1598707613468"
+          style="width: -2px; height: 1px;"
+        >
+          <div
+            class="gantt_layout_content"
+            style="height: 1px;"
+          >
+            <div
+              class="gantt_layout_cell gantt_hor_scroll"
+              style="width: -2px; height: 1px;"
+            >
+              <div
+                style="width: 840px;"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <iframe
+        aria-hidden="true"
+        class="gantt_container_resize_watcher"
+        role="none"
+        tabindex="-1"
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

@@ -1,9 +1,10 @@
 {
   "compilerOptions": {
     "baseUrl": "./",
+    "lib": ["dom", "es2017"],
     "paths": {
       "yy-react-base": [
-        "src/components/index.ts"
+        "src/components/index.tsx"
       ],
       "yy-react-base/es/*": [
         "src/components/*"
@@ -15,7 +16,7 @@
         "src/components/_util"
       ]
     },
-    "target": "esnext",
+    "target": "es6",
     "module": "commonjs",
     "jsx": "react",
     "declaration": true,
@@ -27,8 +28,7 @@
     "resolveJsonModule": true,
     "importHelpers": true,
     "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
-    "types": []
+    "experimentalDecorators": true
   },
   "include": [
     "src",

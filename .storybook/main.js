@@ -73,7 +73,7 @@ module.exports = {
           options: {
             // 将枚举或者联合类型转换成字符串形式，避免字符串字面量显示别名。
             shouldExtractLiteralValuesFromEnum: true,
-            setDisplayName: true,
+            // setDisplayName: true,
             // 避免显示原生内置属性
             propFilter: prop => {
               if (prop.parent) {
