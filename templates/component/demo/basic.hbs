@@ -1,0 +1,21 @@
+import { Meta, Story, Props, Preview } from '@storybook/addon-docs/blocks';
+import {{pascalCase name}} from '..';
+import '../style';
+
+<Meta title="业务组件/{{pascalCase name}}" component={ {{pascalCase name}} } />
+
+## 基本使用
+
+<Preview>
+  <Story name="{{CN}}">
+    <div className="doc-wrapper">
+      <{{pascalCase name}} />
+    </div>
+  </Story>
+</Preview>
+
+## API
+
+<Story name="API" />
+
+<Props of={ {{pascalCase name}} } />

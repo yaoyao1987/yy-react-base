@@ -1,0 +1,13 @@
+import React from 'react';
+import { render } from '@testing-library/react';
+import {{pascalCase name}} from '../index';
+
+describe('{{pascalCase name}}', () => {
+  it('should render correctly', () => {
+    const wrapper = render(<{{pascalCase name}} />);
+    const element = wrapper.container.querySelector('.') as HTMLElement;
+    expect(element).toBeInTheDocument();
+    expect(element.tagName).toEqual('');
+    expect(wrapper).toMatchSnapshot();
+  });
+});

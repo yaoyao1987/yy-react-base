@@ -48,10 +48,10 @@ lib：CommonJS 格式
 在你 clone 了**yy-react-base**的代码并且使用**npm install**安装完依赖后，你还可以运行下面几个常用的命令：
 
 - **yarn run docs**在本地开发时,查看文档
-- **npm run lint**检查代码风格。
+- **yarn run lint**检查代码风格。
 - **npm test**运行测试。(在运行测试前请确保 NODE_ENV 环境变量没有被设定，否则可能会引发一些问题)
 - **yarn run test:coverage**查看测试覆盖率
-- **npm run build**编译 TypeScript 代码到 lib 和 es 目录，构建 yy 的 UMD 版本到 dist 目录。
+- **yarn build**编译 TypeScript 代码到 lib 和 es 目录，构建 yy 的 UMD 版本到 dist 目录。
 
 ### API 文档
 
@@ -81,6 +81,12 @@ Button.defaultProps = {
 }
 ```
 
+### 初始化组件
+
+```sh
+yarn new component 自定义组件名称
+```
+
 ### 提交
 
 #### 提交前
@@ -90,9 +96,9 @@ Button.defaultProps = {
 - 基于**正确的分支**做修改。
 - 在项目根目录下运行了**npm install**。
 - 如果你修复了一个**bug**或者新增了一个功能，请确保写了相应的测试，这很重要。
-- 确认所有的测试都是通过的**npm run test**。 小贴士：开发过程中可以用 npm test -- --watch TestName 来运行指定的测试。
+- 确认所有的测试都是通过的**yarn run test**。 小贴士：开发过程中可以用 npm test -- --watch TestName 来运行指定的测试。
 - 运行**npm test:update**来更新 jest snapshot 并且把这些更新也提交上来（如果有的话）。
-- 确保你的代码通过了**lint**检查**npm run lint**. 小贴士: Lint 会在你 git commit 的时候自动运行（通过 Git Hooks）。
+- 确保你的代码通过了**lint**检查**yarn run lint**. 小贴士: Lint 会在你 git commit 的时候自动运行（通过 Git Hooks）。
 
 #### git 提交流程
 

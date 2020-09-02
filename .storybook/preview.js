@@ -21,7 +21,7 @@ addParameters({
 // 将welcome文档说明置于顶部
 const loaderFn = () => {
   let allExports = [
-    require('../src/stories/sw.stories.mdx'),
+    require('../src/stories/yy.stories.mdx'),
     require('../src/stories/contribute.stories.mdx'),
     require('../src/stories/changeLog.stories.mdx'),
   ]
